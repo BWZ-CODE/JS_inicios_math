@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="porcentajes.css">
+    <title>Porcentajes</title>
+</head>
+<body>
+    <header>
+        <h1>Porcentajes</h1>
+        <p>Autor <b>Miguel Angel Bohorquez</b></p>
+        <a href="./index.html">Volver a inicio</a>
+    </header>
+    <main>
+        <h2 class="info_init">Acá ya se puso buena la cosa, vas a tener la oportunidad de ver cuál sería el precio final de tus productos, aplicandoles el <b> descuento</b></h2>
+        <section class="descount">
+
+            <label for="descount--price">Ingresa el valor del producto en $</label>
+            <input type="number" class="descount--price" alt="descount--price">
+
+            <label for="descount--price">Ingresa el valor del porcentaje de descuento sin el signo %</label>
+            <input type="number" class="descount--descount">
+
+            <button class="calculo" >Calcular descuento</button>
+        </section>
+        <p class="result"></p>
+    </main>
+
+    <script src="./porcentajes.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    font-size: 'PT Serif', serif;
+    background-image: url('./imagenes/logoJS.jpg');
+    
+}
+
+h1{
+    font-size: 2.4rem;
+}
+
+header{
+    text-align: center;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    background-color:#faee8d;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+header a:hover{
+    font-size: 1.3rem;
+    transition: all 0.5s;
+    background-color: black;
+    color: #f7df1d;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.main_info{
+    text-align: center;
+    margin: 10px;
+    padding:20px;
+    font-size: 0.9rem;
+}

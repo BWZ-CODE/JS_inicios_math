@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    font-size: 'PT Serif', serif;
+    background-image: url('./imagenes/logoJS.jpg');
+    
+}
+
+h1{
+    font-size: 2.4rem;
+}
+
+header{
+    text-align: center;
+}
+
+.main_js_list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.main_js--projects{
+   position: relative;
+   text-align: center;
+   padding: 0;
+   width: 50%;
+   min-width: 180px;
+   max-width: 300px;
+   top: 50px;
+   list-style: none;
+   border-radius: 10px;
+   background-color: #faee8d;
+   padding: 10px;
+   box-shadow: -8px 41px 32px -9px rgba(0,0,0,0.75);
+}
+
+.main_js--projects li a{
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    line-height: 40px;
+    font-size: 1rem;
+    transition: all 0.5s;
+}
+
+.main_js--projects a:hover{
+    font-size: 1.3rem;
+    transition: all 0.5s;
+    background-color: black;
+    color: #f7df1d;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+

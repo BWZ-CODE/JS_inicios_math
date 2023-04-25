@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    font-family: 'PT Serif', serif;
+    background-image: url('./imagenes/logoJS.jpg');
+    
+}
+
+h1{
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+header{
+    text-align: center;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    background-color:#faee8d;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+header a:hover{
+    font-size: 1.3rem;
+    transition: all 0.5s;
+    background-color: black;
+    color: #f7df1d;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.info_init{
+    margin-top: 60px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.descount{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 256px;
+    min-width: 256px;
+    max-width: 500px;
+    margin: 0;
+    margin-bottom: 15px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background-color: #faee8d;
+}
+
+main input{
+    margin: 15px;
+    border-radius: 8px;
+    border-inline: none;
+    border: none;
+}
+
+.calculo{
+    border-radius: 8px;
+    border: none;
+    height: 25px;
+}
+
+label{
+    text-align: center;
+    
+}
+
+.result{
+    position: absolute;
+    margin-top: 120px;
+    top: 450px;
+    padding: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+    align-self: center;
+    height: auto;
+    width: 80%;
+    min-width: 280px;
+    max-width: 463px;
+    border-radius: 8px;
+    background-color: #a89814;
+    color: white;
+}
