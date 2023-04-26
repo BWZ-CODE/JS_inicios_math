@@ -149,6 +149,7 @@ label{
 .coupon_descount--button, .boton{
     width: 70%;
     height: 30px;
-    background-color: #f7df1d;  
+    background-color: #f7df1d;
+    cursor: pointer;  
     
 }
