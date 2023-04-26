@@ -21,14 +21,41 @@
         <section class="descount">
 
             <label for="descount--price">Ingresa el valor del producto en $</label>
-            <input type="number" class="descount--price" alt="descount--price">
+            <input type="number" class="descount--price">
 
             <label for="descount--price">Ingresa el valor del porcentaje de descuento sin el signo %</label>
             <input type="number" class="descount--descount">
 
-            <button class="calculo" >Calcular descuento</button>
+            <button class="calculo boton" >Calcular descuento</button>
+            <p class="result"></p>
         </section>
-        <p class="result"></p>
+        
+
+        <section class="coupon_descount">
+            <div class="coupon_descount--info">
+                <h2>SOLO POR HOY!!</h2>
+                <h3>Puedes acceder a los siguientes cupones y averiguar en cuanto queda tu producto</h3>
+                <ul>
+                    <li>Con Miguel programo</li>
+                    <li>Aprendo como loco</li>
+                    <li>vamos a ser millonarios</li>
+                </ul>
+            </div>
+            <form  class="coupon_descount-form" action="">
+                <label for="coupon_descount--price">Ingresa el precio de tu producto</label>
+                <input type="number" class="coupon_descount--price">
+
+                <label for="coupon_descount-coupon">Ingresa tu cupón</label>
+                <input type="text" placeholder="coupon" class="coupon_descount-coupon">
+                
+
+                <input type="button" class="coupon_descount--button boton" value="Calcular">
+                <p class="resultado_coupon"></p>
+
+
+            </form>
+            
+        </section>
     </main>
 
     <script src="./porcentajes.js"></script>
